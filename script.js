@@ -12,11 +12,11 @@ let currentVideoQuery = null;
 let currentVideoPage = 1;
 
 // Gemini API key and endpoint
-const GEMINI_API_KEY = 'AIzaSyCW4DsPWh0X0aJPsJb0OwytpyB8kJKW7V0'; //PLACE YOUR GEMINI API KEY
+const GEMINI_API_KEY = ''; //PLACE YOUR GEMINI API KEY
 const GEMINI_API_ENDPOINT = 'https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent';
 
 // Pexels API key and endpoint
-const PEXELS_API_KEY = 'RLFMduf8TJixGf3499hL1wuT7FGxXAiKwqgLE4Hg6WcipIb7IgQ62liU'; //PLACE YOUR PEXELS API KEY
+const PEXELS_API_KEY = ''; //PLACE YOUR PEXELS API KEY
 const PEXELS_API_URL = 'https://api.pexels.com/videos/search';
 
 // Function to toggle dark mode
@@ -145,7 +145,7 @@ function processUserInput(userInput) {
 
 // Function to generate object images using Unsplash API
 function generateObjectImages(object) {
-  const accessKey = "_cTll8sRIYBo5bYfr52ktD9HpOYRpsXoKE4_5yZRzbg"; //PLACE YOUR UNSPLASH API KEY
+  const accessKey = ""; //PLACE YOUR UNSPLASH API KEY
   const chatContainer = document.getElementById("chat");
 
   if (currentObject !== object) {
